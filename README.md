@@ -3,7 +3,7 @@
 #Para rodar o projeto:
 
 1. git clone https://github.com/brunaoflofl/Angular-SB-FE.git
-2. cd cliente-app
+2. cd clientes-app
 3. npm install
 4. ng serve --open
 
