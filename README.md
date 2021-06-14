@@ -1,5 +1,12 @@
 # ClientesApp
 
+#Para rodar o projeto:
+
+1. git clone https://github.com/brunaoflofl/Angular-SB-FE.git
+2. cd cliente-app
+3. npm install
+4. ng serve --open
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
 ## Development server
