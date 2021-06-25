@@ -6,8 +6,7 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   //rotas raizes da aplicação.
-  { path: 'home', component:  HomeComponent },
-  { path: 'clientes-list', component: ClientesListComponent }
+  { path: 'home', component:  HomeComponent }
 ];
 
 @NgModule({
