@@ -4,11 +4,12 @@
 </ol>
 <div class="row">
     <div class="col-md-2">
-        <button class="btn btn-warning">
+        <button class="btn btn-warning" (click)="novoCadastro()">
             <i class="fa fa-plus"></i> Novo
         </button>
     </div>
 </div>
+<br>
 <div class="row">
     <div class="col-md-12">
         <table class="table table-condensed table-hover">
@@ -23,10 +24,10 @@
             </thead>
             <tbody>
                 <tr *ngFor="let cliente of clientes">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>{{cliente.id}}</td>
+                    <td>{{cliente.nome}}</td>
+                    <td>{{cliente.cpf}}</td>
+                    <td>{{cliente.dataCadastro}}</td>
                     <td></td>
                 </tr>
             </tbody>
